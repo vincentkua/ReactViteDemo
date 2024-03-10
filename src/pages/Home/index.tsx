@@ -1,3 +1,5 @@
+import withChild from "../WithChild";
+
 const Home = () => {
   return (
     <>
@@ -12,4 +14,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default withChild(Home);
